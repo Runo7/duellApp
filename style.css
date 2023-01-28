@@ -1,0 +1,53 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	overflow: hidden;
+}
+canvas
+{
+/*	position: absolute; */
+	width: 100%;
+	height: 100vh;
+	background: #000;
+}
+.dg.ac
+{
+	display: none;
+}
+
+.mainList {
+  list-style: none;
+  text-decoration: none;
+  display:  block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+
+.mainList li {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+ position: absolute;
+ margin-left: 35%;
+ margin-top: 25%;
+
+}
+
+button {
+	width: 18rem;
+	height: 4rem;
+	background: #a3a3c2;
+	border-radius: 1rem;
+}
